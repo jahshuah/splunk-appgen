@@ -20,11 +20,11 @@ from jinja2 import *
 # values for the app.conf stuff
 appgenrc = {}
 
-# Require config file .appgenrc to pull default 
-if os.path.isfile(os.path.join(os.path.expanduser('~'), '.appgenrc')):
-    appgenrc['path'] = os.path.join(os.path.expanduser('~'), '.appgenrc')
-elif os.path.isfile(os.path.join(os.getcwd(), '.appgenrc')):
-    appgenrc['path'] = os.path.join(os.getcwd(), '.appgenrc')
+# Require config file appgenrc to pull default 
+if os.path.isfile(os.path.join(os.path.expanduser('~'), 'appgenrc')):
+    appgenrc['path'] = os.path.join(os.path.expanduser('~'), 'appgenrc')
+elif os.path.isfile(os.path.join(os.getcwd(), 'appgenrc')):
+    appgenrc['path'] = os.path.join(os.getcwd(), 'appgenrc')
 
 if appgenrc['path']:
     try:
