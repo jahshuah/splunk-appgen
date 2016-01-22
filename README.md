@@ -19,10 +19,8 @@ This is a little script that generates a basic folder structure for your Splunk 
     * indexes.conf
     * inputs.conf
     * props.conf
-    * server.conf
     * tags.conf
     * transforms.conf
-    * web.conf
   * local
   * lookups
   * metadata
