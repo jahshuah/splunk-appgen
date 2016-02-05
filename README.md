@@ -32,3 +32,7 @@ It's really basic. Like, REALLY basic. Requires argparse, ConfigParser, and jinj
 
 Use at your own risk (or to your own success!), and may the odds be ever in your favor.
 
+## Coming Soon:
+
+* script designed to package the app into a *.tgz file
+  * Might change that to *.spl, but not sure if Splunk is even using that anymore...
