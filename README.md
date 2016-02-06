@@ -32,7 +32,12 @@ It's really basic. Like, REALLY basic. Requires argparse, ConfigParser, and jinj
 
 Use at your own risk (or to your own success!), and may the odds be ever in your favor.
 
-## Coming Soon:
+## Packaging your app
 
-* script designed to package the app into a *.tgz file
-  * Might change that to *.spl, but not sure if Splunk is even using that anymore...
+When you're ready to package your app, run the `splunk_package.py` application, supplying a filename and source folder with the -f and -t command line options, respectively.  For example:
+
+```
+splunk_package.py -f test_app.tgz -t tests/test_app
+```
+
+That is all.
