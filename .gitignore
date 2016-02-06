@@ -1,0 +1,10 @@
+# Folders for exclusion #
+#########################
+tests
+
+# Archive Files #
+#################
+*.tgz
+*.gz
+*.bz2
+*.7z
