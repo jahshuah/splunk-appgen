@@ -41,3 +41,7 @@ splunk_package.py -f test_app.tgz -t tests/test_app
 ```
 
 That is all.
+
+## Contribution
+
+So, this app works well for my purposes, but if you have a better idea, I'm all ears. Fork this thing, make it awesomer, and create a pull request. Contributors will get attribution and the joy of knowing you're helping other Splunkers out there!
